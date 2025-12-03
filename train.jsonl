@@ -1,0 +1,10 @@
+{"Instruction": "What is Docker?", "Response": "Docker runs apps in isolated containers."}
+{"Instruction": "What is Kubernetes?", "Response": "Kubernetes manages containers at scale."}
+{"Instruction": "What is a Docker image?", "Response": "A Docker image is a template for containers."}
+{"Instruction": "What are microservices?", "Response": "Microservices are small, independent services."}
+{"Instruction": "What is Git?", "Response": "Git tracks code changes in projects."}
+{"Instruction": "What is CI/CD?", "Response": "CI/CD automates testing and deploying code."}
+{"Instruction": "What is a REST API?", "Response": "A REST API lets apps communicate over HTTP."}
+{"Instruction": "What is virtualization?", "Response": "Virtualization creates virtual versions of hardware."}
+{"Instruction": "What is load balancing?", "Response": "Load balancing spreads traffic across servers."}
+{"Instruction": "What is Terraform?", "Response": "Terraform manages cloud resources with code."}

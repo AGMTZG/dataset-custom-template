@@ -1,0 +1,31 @@
+train_dataset: train.jsonl
+validation_dataset: validation.jsonl
+prompt_template: prompt_template.txt
+model_name: tiiuae/falcon-7b
+
+lora:
+  r: 64
+  lora_alpha: 16
+  target_modules: all-linear
+  lora_dropout: 0.1
+  bias: none
+  task_type: CAUSAL_LM
+
+training:
+  per_device_train_batch_size: 1
+  gradient_accumulation_steps: 8
+  warmup_steps: 50
+  max_steps: 500
+  learning_rate: 3e-4
+  fp16: true
+  bf16: false
+  logging_steps: 10
+  output_dir: ./lora-finetuned   # Export your custom LoRA
+  optim: paged_adamw_8bit
+  save_strategy: steps
+  save_steps: 100
+  save_total_limit: 2
+  report_to: none
+  remove_unused_columns: false
+  max_seq_length: 2048
+  packing: false
