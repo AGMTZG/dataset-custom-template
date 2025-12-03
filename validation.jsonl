@@ -1,10 +1,10 @@
-{"Instruction": "What is an API?", "Response": "An API allows apps to talk to each other."}
-{"Instruction": "What are containers?", "Response": "Containers package apps with their dependencies."}
-{"Instruction": "What is orchestration?", "Response": "Orchestration automates system management."}
-{"Instruction": "What is CI?", "Response": "CI is frequent merging of code changes."}
-{"Instruction": "What is CD?", "Response": "CD automates releasing code to production."}
-{"Instruction": "What is a virtual machine?", "Response": "A VM emulates a physical computer."}
-{"Instruction": "What is serverless?", "Response": "Serverless runs code without managing servers."}
-{"Instruction": "What is a Kubernetes pod?", "Response": "A pod contains one or more containers."}
-{"Instruction": "What is infrastructure as code?", "Response": "It manages infrastructure with configuration files."}
-{"Instruction": "What is GitHub?", "Response": "GitHub hosts Git projects online."}
+{"input": "What is an API?", "output": "An API allows apps to talk to each other."}
+{"input": "What are containers?", "output": "Containers package apps with their dependencies."}
+{"input": "What is orchestration?", "output": "Orchestration automates system management."}
+{"input": "What is CI?", "output": "CI is frequent merging of code changes."}
+{"input": "What is CD?", "output": "CD automates releasing code to production."}
+{"input": "What is a virtual machine?", "output": "A VM emulates a physical computer."}
+{"input": "What is serverless?", "output": "Serverless runs code without managing servers."}
+{"input": "What is a Kubernetes pod?", "output": "A pod contains one or more containers."}
+{"input": "What is infrastructure as code?", "output": "It manages infrastructure with configuration files."}
+{"input": "What is GitHub?", "output": "GitHub hosts Git projects online."}
