@@ -1,10 +1,10 @@
-{"Instruction": "What is Docker?", "Response": "Docker runs apps in isolated containers."}
-{"Instruction": "What is Kubernetes?", "Response": "Kubernetes manages containers at scale."}
-{"Instruction": "What is a Docker image?", "Response": "A Docker image is a template for containers."}
-{"Instruction": "What are microservices?", "Response": "Microservices are small, independent services."}
-{"Instruction": "What is Git?", "Response": "Git tracks code changes in projects."}
-{"Instruction": "What is CI/CD?", "Response": "CI/CD automates testing and deploying code."}
-{"Instruction": "What is a REST API?", "Response": "A REST API lets apps communicate over HTTP."}
-{"Instruction": "What is virtualization?", "Response": "Virtualization creates virtual versions of hardware."}
-{"Instruction": "What is load balancing?", "Response": "Load balancing spreads traffic across servers."}
-{"Instruction": "What is Terraform?", "Response": "Terraform manages cloud resources with code."}
+{"input": "What is Docker?", "output": "Docker runs apps in isolated containers."}
+{"input": "What is Kubernetes?", "output": "Kubernetes manages containers at scale."}
+{"input": "What is a Docker image?", "output": "A Docker image is a template for containers."}
+{"input": "What are microservices?", "output": "Microservices are small, independent services."}
+{"input": "What is Git?", "output": "Git tracks code changes in projects."}
+{"input": "What is CI/CD?", "output": "CI/CD automates testing and deploying code."}
+{"input": "What is a REST API?", "output": "A REST API lets apps communicate over HTTP."}
+{"input": "What is virtualization?", "output": "Virtualization creates virtual versions of hardware."}
+{"input": "What is load balancing?", "output": "Load balancing spreads traffic across servers."}
+{"input": "What is Terraform?", "output": "Terraform manages cloud resources with code."}
