@@ -27,5 +27,3 @@ training:
   save_total_limit: 2
   report_to: none
   remove_unused_columns: false
-  max_seq_length: 2048
-  packing: false
