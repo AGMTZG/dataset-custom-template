@@ -15,3 +15,21 @@ This repository is a **template for custom datasets** designed for fine-tuning F
 3. **Run the training script** to fine-tune your model using your custom dataset.
 
 This template is ideal for lightweight fine-tuning experiments and fast integration of LoRA adapters without heavy hardware requirements.
+
+## Important: JSONL Must Use input and output
+
+Your dataset must follow this structure:
+
+```json
+
+{"input": "What is Docker?", "output": "Docker is a platform for running applications in containers."}
+
+```
+
+Why?
+Because the trainer will insert them into your `prompt_template` like this:
+
+```bash
+Instruction: {input}
+Response: {output}
+```
